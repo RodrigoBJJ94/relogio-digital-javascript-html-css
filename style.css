@@ -36,3 +36,17 @@ footer p {
         margin-top: 50rem;
     }
 }
+
+@media (max-width: 320px) {
+    .clock {
+        margin-left: 1.5 rem;
+        margin-right: 1.5 rem;
+        width: 25rem;
+        max-width: 100%;
+        font-size: 6rem;
+    }
+
+    footer p {
+        margin-top: 35rem;
+    }
+}
