@@ -10,6 +10,8 @@
     font-size: 12rem;
     width: 50rem;
     background: black;
+    border: 0.2rem solid rgb(128, 128, 128);
+    border-radius: 0.5rem;
 }
 
 div {
