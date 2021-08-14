@@ -10,7 +10,6 @@
     font-size: 12rem;
     width: 50rem;
     background: black;
-    border: 0.2rem solid rgb(128, 128, 128);
     border-radius: 0.5rem;
 }
 
@@ -23,6 +22,7 @@ footer p {
     text-align: center;
     font-size: 2rem;
     margin-top: 68rem;
+    font-style: italic;
 }
 
 @media (max-width: 800px) {
@@ -35,11 +35,11 @@ footer p {
     }
 
     footer p {
-        margin-top: 50rem;
+        margin-top: 43rem;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
     .clock {
         margin-left: 1.5 rem;
         margin-right: 1.5 rem;
