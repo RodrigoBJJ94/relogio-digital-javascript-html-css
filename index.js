@@ -16,7 +16,8 @@ function clock() {
         second = '0' + second;
     }
 
-    let hours = hour + ':' + minute + ":" + second;
+    
+    let hours = (`${hour}:${minute}:${second}`);
     document.querySelector('.clock').value = hours;
 }
 
